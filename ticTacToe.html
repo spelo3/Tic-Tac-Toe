@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/ticTacToe.css" rel="stylesheet" type="text/css">
+  <script src="jQuery/jquery-2.1.4.js"></script>
+  <script src="js/ticTacToe.js"></script>
+</head>
+
+<body>
+
+  <div class="row">
+    <div class="col-md-12">
+      <h1 class="bar">TIC - TAC - TOE</h1>
+    </div>
+  </div>
+
+  <div class="container"> <!--Overall Container-->
+
+    <div id="frame1" class="col-md-3"> <!-- 1st column div -->
+      <div id="leftColumn">
+        <h2 id="player1">PLAYER 1</h2>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+
+      <table class="grid">
+        <tr>
+          <td class="box" id="f0"></td>
+          <td class="box" id="f1"></td>
+          <td class="box" id="f2"></td>
+        </tr>
+        <tr>
+          <td class="box" id="f3"></td>
+          <td class="box" id="f4"></td>
+          <td class="box" id="f5"></td>
+        </tr>
+        <tr>
+          <td class="box" id="f6"></td>
+          <td class="box" id="f7"></td>
+          <td class="box" id="f8"></td>
+        </tr>
+      </table><br>
+
+      <div>
+        <button>Play again!</button>
+      </div>
+
+    </div><!--end of div col-md-6-->
+
+    <div id="frame2" class="col-md-3">
+      <div id="rightColumn">
+        <h2 id="player2"> PLAYER 2</h2>
+      </div>
+    </div> <!-- 2nd column div -->
+
+  </div> <!--end of container -->
+
+</body>
+</html>

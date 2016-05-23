@@ -1,0 +1,99 @@
+.grid {
+  height: 450px;
+  width: 450px;
+  margin-left: 40px;
+  margin-top: 80px; /*moves row down from balck title bar*/
+  background-color: black;
+
+  }
+h1{
+  text-align: center;
+  background-color: black;
+  /*padding-top: 2px;*/
+  font-size: 70px;
+
+}
+table{
+  border-spacing: 10px;
+  border-collapse: separate;
+}
+
+.bar {
+    font-family: 'emilio20';
+    color: white;
+    height: 100px;
+}
+@font-face {
+    font-family: 'emilio20';
+    src: url('emilio20.ttf');
+}
+
+td {
+  background-color:#195E1E;
+  height:100px;
+  width:100px;
+  border-radius: 20px;
+}
+
+
+#leftColumn {
+  background-color: #8B4513;
+  height: 500px;
+  text-align: center;
+  opacity:0.9;
+  margin-left: -20px;
+  margin-right: -20px;
+  border: black solid 5px;
+  border-color: black;
+}
+#rightColumn {
+  background-color: #8B4513;
+  height: 500px;
+  text-align: center;
+  opacity: 0.9;
+  margin-left: -20px;
+  margin-right: -20px;
+  border: black solid 5px;
+  /*padding 50px;*/
+}
+#frame1 {
+  border: solid black 20px;
+  margin-top: 20px;
+}
+#frame2 {
+  border: solid black 20px;
+  margin-top: 20px;
+}
+
+.box {
+  text-align: center;
+  color: white;
+  font-size: 4em;
+  font-family: rock salt,cursive;
+}
+button {
+  height: 40px;
+  width: 225px;
+  background-color: black;
+  font-family: sans-serif;
+  font-size: 20px;
+  color: white;
+  border-radius: 20px;
+  position: absolute;
+  float: center;
+  margin-left: 25%;
+}
+
+h2 {
+  font-family: rock salt, cursive;
+  color: white;
+}
+
+body {
+background-image: url('../pictures/FootballField.png');
+background-repeat: no-repeat;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
